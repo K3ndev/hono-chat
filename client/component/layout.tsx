@@ -22,11 +22,9 @@ const Layout: FC = (props) => {
   return (
     <html lang="en" style={htmlCss}>
         <head>
-            <title>Hono Chat</title>
+            <title>Hono Todo</title>
             {/* alpine */}
             <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" />
-            {/* htmx */}
-            <script src="https://unpkg.com/htmx.org@1.9.12" />
         </head>
       <body style={bodyCss}>
         <header>header</header>
